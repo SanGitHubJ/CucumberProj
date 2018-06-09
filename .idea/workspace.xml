@@ -5,67 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437083ac-f147-495c-996d-432bf56fd188" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Result-Jason/jason_Result.json" beforeDir="false" afterPath="$PROJECT_DIR$/Result-Jason/jason_Result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Result/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Result/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Result/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Result/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Result/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Result/jquery-1.8.2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test-Result/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Result/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Result/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Result/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestAmazonApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestAmazonApplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/AmazonStepsDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/AmazonStepsDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/amazon.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/amazon.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Features/AmazonStepsDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Features/amazon.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/TestRunner.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/amazon.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/amazon.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTest/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerTest/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinition/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinition/StepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/util/Q2Answer" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Q2Answer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Features/AmazonStepsDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestRunner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsDefinition/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepsDefinition/StepDefinitions.class" afterDir="false" />
     </list>
     <ignored path="TestAmazonApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,17 +41,8 @@
       <file leaf-file-name="amazon.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Features/amazon.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="amazon.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Features/amazon.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="38" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="38" />
+            <state relative-caret-position="290">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -108,8 +50,17 @@
       <file leaf-file-name="RunnerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RunnerTest/RunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="53">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q2Answer" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/Q2Answer">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -117,8 +68,8 @@
       <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepsDefinition/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="852">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="107">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +89,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>amazon Login Page open</find>
+      <find>search the product</find>
       <find>amazon_login_page</find>
+      <find>enter user name and incorect password and click singine</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,11 +106,11 @@
         <option value="$PROJECT_DIR$/src/main/java/TestRunner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/StepsDefinition/ExcelReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/Q2Answer" />
-        <option value="$PROJECT_DIR$/src/test/java/StepsDefinition/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/java/Features/amazon.feature" />
         <option value="$PROJECT_DIR$/src/test/java/RunnerTest/RunnerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepsDefinition/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/amazon.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/util/Q2Answer" />
       </list>
     </option>
   </component>
@@ -209,21 +162,6 @@
               <item name="TestAmazonApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestAmazonApplication" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAmazonApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAmazonApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAmazonApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAmazonApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,6 +202,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAmazonApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAmazonApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="Test-Result" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -681,34 +624,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 32m 23s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 40m 02s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 44m 54s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 46m 03s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 46m 50s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 48m 57s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 50m 04s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 52m 40s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTest - 2018.06.09 at 16h 54m 36s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerTest - 2018.06.09 at 16h 57m 26s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 12m 36s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 16m 57s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 20m 31s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 22m 51s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 24m 03s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 25m 47s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 32m 30s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 44m 49s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2018.06.09 at 17h 46m 50s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -717,7 +660,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="697" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -727,12 +669,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37310925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37310925" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -752,10 +694,10 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37310925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37310925" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -897,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/Q2Answer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.3/cucumber-core-1.2.3.jar!/cucumber/runtime/StepDefinitionMatch.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -911,34 +846,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RunnerTest/RunnerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Features/amazon.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="94">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Features/amazon.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunnerTest/RunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="38" />
+        <state relative-caret-position="53">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepsDefinition/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="107">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/Q2Answer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/amazon.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="290">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>

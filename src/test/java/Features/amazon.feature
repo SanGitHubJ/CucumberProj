@@ -28,7 +28,7 @@ Feature: Amazon Online Application Test
         Given amazon Login Page open
          |/home/sanath/Applications/Drivers/chromedriver|https://www.amazon.com|
         Then enter user name and incorect password and click singine
-          |aselenm@gmail.com|a@selenm|
+          |aselenm@gmail.com|a@selenmdd|
         And close the browser
 
 

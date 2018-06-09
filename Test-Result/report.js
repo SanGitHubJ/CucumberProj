@@ -42,21 +42,21 @@ formatter.match({
   "location": "StepDefinitions.amazon_login_page(DataTable)"
 });
 formatter.result({
-  "duration": 9361480200,
+  "duration": 11764097147,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.test_amazon_login_page_title()"
 });
 formatter.result({
-  "duration": 183639533,
+  "duration": 129855861,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.close_browser()"
 });
 formatter.result({
-  "duration": 185866359,
+  "duration": 174245621,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,42 +127,42 @@ formatter.match({
   "location": "StepDefinitions.amazon_login_page(DataTable)"
 });
 formatter.result({
-  "duration": 7186082911,
+  "duration": 6663219694,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.user_enter_un_pw(DataTable)"
 });
 formatter.result({
-  "duration": 8295460229,
+  "duration": 8283385565,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.search_products(DataTable)"
 });
 formatter.result({
-  "duration": 9031982779,
+  "duration": 4058244871,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.select_product()"
 });
 formatter.result({
-  "duration": 4029034650,
+  "duration": 4046107841,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.add_to_buskats()"
 });
 formatter.result({
-  "duration": 4024701450,
+  "duration": 4040381690,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.close_browser()"
 });
 formatter.result({
-  "duration": 237874297,
+  "duration": 175734501,
   "status": "passed"
 });
 formatter.scenario({
@@ -215,22 +215,22 @@ formatter.match({
   "location": "StepDefinitions.amazon_login_page(DataTable)"
 });
 formatter.result({
-  "duration": 6333629615,
+  "duration": 6715426409,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.user_enter_un_pw(DataTable)"
 });
 formatter.result({
-  "duration": 7532216343,
+  "duration": 8380856693,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.check_busket_items_present()"
 });
 formatter.result({
-  "duration": 93555682,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[id\u003d\u0027nav-cart-count\u0027]\"}\n  (Session info: chrome\u003d66.0.3359.181)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dLinux 4.13.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027sanath-Compaq-620\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.13.0-43-generic\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}\nSession ID: 7ae36c0520693d550bfb58dc05c72d2a\n*** Element info: {Using\u003dxpath, value\u003d//span[id\u003d\u0027nav-cart-count\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\n\tat StepsDefinition.StepDefinitions.check_busket_items_present(StepDefinitions.java:133)\n\tat ✽.Then check busket items present or not(src/test/java/Features/amazon.feature:24)\n",
+  "duration": 6026933614,
+  "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d66.0.3359.181)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dLinux 4.13.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027sanath-Compaq-620\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.13.0-43-generic\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}\nSession ID: 0337e965d270b5965de2d77de55b8b2a\n*** Element info: {Using\u003dxpath, value\u003d//span[id\u003d\u0027nav-cart-count\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\n\tat StepsDefinition.StepDefinitions.check_busket_items_present(StepDefinitions.java:155)\n\tat ✽.Then check busket items present or not(src/test/java/Features/amazon.feature:24)\n",
   "status": "failed"
 });
 formatter.match({
@@ -268,7 +268,7 @@ formatter.step({
     {
       "cells": [
         "aselenm@gmail.com",
-        "a@selenm"
+        "a@selenmdd"
       ],
       "line": 31
     }
@@ -284,21 +284,21 @@ formatter.match({
   "location": "StepDefinitions.amazon_login_page(DataTable)"
 });
 formatter.result({
-  "duration": 8184908531,
+  "duration": 6474508470,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.incorrect_login_check(DataTable)"
 });
 formatter.result({
-  "duration": 8540044963,
-  "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d66.0.3359.181)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dLinux 4.13.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027sanath-Compaq-620\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.13.0-43-generic\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}\nSession ID: 590678fbaa4423ed4bc509666f40d503\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat StepsDefinition.StepDefinitions.incorrect_login_check(StepDefinitions.java:153)\n\tat ✽.Then enter user name and incorect password and click singine(src/test/java/Features/amazon.feature:30)\n",
-  "status": "failed"
+  "duration": 6612813878,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.close_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 180003417,
+  "status": "passed"
 });
 });

@@ -27,11 +27,16 @@ public class StepDefinitions {
     @Given("^amazon Login Page open$")
     public void amazon_login_page(DataTable drivr) throws IOException {
 
+//        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+
         List<List<String>> dr = drivr.raw();
 
        System.setProperty("webdriver.chrome.driver",dr.get(0).get(0));
 
         driver = new ChromeDriver();
+
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
 
 
         driver.get(dr.get(0).get(1));
@@ -41,6 +46,8 @@ public class StepDefinitions {
     @Then("^get the title home page$")
     public void test_amazon_login_page_title() {
 
+        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+
         String title = driver.getTitle();
         Assert.assertEquals("Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more", title);
     }
@@ -48,6 +55,8 @@ public class StepDefinitions {
     @And("^close the browser$")
     public void close_browser() {
 
+
+        driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);
         driver.quit();
     }
 
@@ -55,6 +64,8 @@ public class StepDefinitions {
     public void user_enter_un_pw(DataTable credintials) throws InterruptedException {
 
         try {
+
+            driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
             List<List<String>> data = credintials.raw();
             driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
             Actions action = new Actions(driver);
@@ -82,8 +93,9 @@ public class StepDefinitions {
     public void search_products(DataTable prd) {
         try {
 
-            driver.manage().timeouts().pageLoadTimeout(9, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
             List<List<String>> product = prd.raw();
+           // driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
             driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys(product.get(0).get(0));
             driver.findElement(By.xpath("//input[@type='submit' and @class='nav-input']")).click();
         } catch (TimeoutException e) {
@@ -113,14 +125,22 @@ public class StepDefinitions {
     @Then("^check the product is add to buskat and baskat page$")
     public void add_to_buskats() throws InterruptedException {
         try {
+
+
+            driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+
             driver.findElement(By.xpath("//input[@id='add-to-cart-button' and @name='submit.add-to-cart']")).click();
-            Thread.sleep(2000);
+
+            driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
 
             driver.findElement(By.xpath("//span[id='nav-cart-cousnt' and @class='nav-cart-count nav-cart-1']")).click();
-            Thread.sleep(10000);
+
+            driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+
             String prdname = driver.findElement(By.xpath("//span[@class='a-size-medium sc-product-title a-text-bold']")).getText();
             Assert.assertEquals("Apple iPhone X, GSM Unlocked 5.8\", 64 GB - Space Gray", prdname);
             String prdprc = driver.findElement(By.xpath("//span[@class='a-size-medium a-color-price sc-price sc-white-space-nowrap sc-product-price sc-price-sign a-text-bold']")).getText();
+            System.out.println(prdprc);
             Assert.assertEquals("$1,146.99", prdprc);
         } catch (TimeoutException e) {
             //System.out.print(e);
@@ -130,12 +150,16 @@ public class StepDefinitions {
     @Then("^check busket items present or not$")
     public void check_busket_items_present() {
 
+
+        driver.manage().timeouts().pageLoadTimeout(6, TimeUnit.SECONDS);
         String prdcnt = (driver.findElement(By.xpath("//span[id='nav-cart-count']")).getText());
         Assert.assertEquals("1", prdcnt);
     }
 
     @Then("^enter user name and incorect password and click singine$")
     public void incorrect_login_check(DataTable incorectCre) {
+
+        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
 
 
         List<List<String>> data = incorectCre.raw();
@@ -151,6 +175,8 @@ public class StepDefinitions {
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys(data.get(0).get(1));
         //Thread.sleep(3000);
         driver.findElement(By.xpath(("//input[@id='signInSubmit' and @type='submit']"))).click();
+
+        driver.manage().timeouts().pageLoadTimeout(6, TimeUnit.SECONDS);
 
         String invdpwd = driver.findElement(By.xpath("//span[contains(text(),'Your password is incorrect')]")).getText();
         Assert.assertEquals("Your password is incorrect", invdpwd);
