@@ -1,6 +1,8 @@
 package StepsDefinition;
 
 import cucumber.api.DataTable;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -23,15 +25,17 @@ public class StepDefinitions {
 
     public WebDriver driver;
 
-
-    @Given("^amazon Login Page open$")
-    public void amazon_login_page(DataTable drivr) throws IOException {
+        //Hooks @Before , @Atfer >> NO need to do anything in feature file which are applicable for all scenaries
+    //global scenaies
+    @Before
+    //public void amazon_login_page(DataTable drivr) throws IOException {
+        public void amazon_login_page() throws IOException {
 
 //        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
 
-        List<List<String>> dr = drivr.raw();
+       // List<List<String>> dr = drivr.raw(); // removed this since calling in @Before
 
-       System.setProperty("webdriver.chrome.driver",dr.get(0).get(0));
+       System.setProperty("webdriver.chrome.driver","/home/sanath/Applications/Drivers/chromedriver");
 
         driver = new ChromeDriver();
 
@@ -39,26 +43,42 @@ public class StepDefinitions {
         driver.manage().deleteAllCookies();
 
 
-        driver.get(dr.get(0).get(1));
+      //  driver.get(dr.get(0).get(1)); // removed this since calling in @Before
+
+        driver.get("https://www.amazon.com");
+
 
     }
 
-    @Then("^get the title home page$")
-    public void test_amazon_login_page_title() {
-
-        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
-
-        String title = driver.getTitle();
-        Assert.assertEquals("Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more", title);
-    }
-
-    @And("^close the browser$")
+    @After
     public void close_browser() {
 
 
         driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);
         driver.quit();
     }
+
+    // local hooks are applicable only for specific scenario can use for pre-conditions
+    // locall hooks @Before(Tag Name from feature file)
+    // locall hooks @After(Tag Name from feature file)
+
+    @Then("^get the title home page$")
+    public void test_amazon_login_page_title() {
+
+        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+
+        String title = driver.getTitle();
+        Assert.assertEquals("Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more", title);
+    }
+
+//    @And("^close the browser$")
+//    public void close_browser() {
+//
+//
+//        driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);
+//        driver.quit();
+//    }
 
     @Then("^enter username and click singin$")
     public void user_enter_un_pw(DataTable credintials) throws InterruptedException {
@@ -165,6 +185,9 @@ public class StepDefinitions {
         List<List<String>> data = incorectCre.raw();
         driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
         Actions action = new Actions(driver);
+
+        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 
         action.moveToElement(driver.findElement(By.xpath("//span[contains(text(),'Hello. Sign in')]")));
         driver.findElement(By.xpath("//a[@id='nav-link-accountList']")).click();

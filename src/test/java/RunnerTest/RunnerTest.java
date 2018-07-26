@@ -15,8 +15,14 @@ import org.junit.runner.RunWith;
         format = {"pretty","html:Test-Result","json:Result-Jason/jason_Result.json"},
         monochrome = true,
         strict = true,
-        dryRun = false
+        dryRun = false,
+        tags = {"@SmokeTest"}
 )
 
 public class RunnerTest {
 }
+
+
+//Excute OR condition >> tags = {"@SmokeTest,@RegressionTest"}
+//Excute AND condition >>  tags = {"@SmokeTest","@RegressionTest"}
+//To Ingore the scenarioes >> [use ~]>> tags = {"~@SmokeTest,@RegressionTest"}
